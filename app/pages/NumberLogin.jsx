@@ -22,7 +22,7 @@ const NumberLogin = ({ navigation }) => {
             {/* TouchableOpacity */}
             <TouchableOpacity
                 style={styles.buttonPrimary}
-                onPress={() =>  navigation.navigate('EmailLogin')}
+                onPress={() =>  navigation.navigate('Dashbaord')}
             >
                 <Text style={styles.btnPrimarytext}>Confirm Number</Text>
             </TouchableOpacity>

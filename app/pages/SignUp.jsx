@@ -58,9 +58,9 @@ const SignUp = ({ navigation }) => {
             {/* TouchableOpacity */}
             <TouchableOpacity
                 style={styles.buttonPrimary}
-                onPress={() =>  navigation.navigate('EmailLogin')}
+                onPress={() =>  navigation.navigate('Verification')}
             >
-                <Text style={styles.btnPrimarytext}>Confirm Email</Text>
+                <Text style={styles.btnPrimarytext}>Continue</Text>
             </TouchableOpacity>
 
             <Text style={styles.text}>By continuing with sign in we may send you a one time verification code via text message to phone number associated with your account. Message and data rates may apply</Text>
